@@ -19,7 +19,7 @@ void loop() {
   if (buttonstate == 1){
     delay(30);
     buttonstate = digitalRead(button);
-    if (buttonstate == 0 &&ledstat<=3){
+    if (buttonstate == 0){
        ledstate++;
     }
     else{
